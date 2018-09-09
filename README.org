@@ -1,0 +1,47 @@
+#+TITLE: План разработки
+#+AUTHOR: Константин Моренко
+#+EMAIL: me@konstantin-morenko.ru
+
+* _config.yml
+
+[[banner]]
+
+#+CAPTION: Banner description
+#+BEGIN_SRC yaml
+banner:
+  image: images/banner.jpg
+  class: w3-round
+  alt: Banner
+#+END_SRC
+
+* _layouts
+** default.html
+** main.html
+** page.html
+** index.html
+** post.html
+* _data
+** links
+*** main
+*** resources
+*** meta
+** contacts
+* _include
+** banner
+
+#+BEGIN_SRC html
+<img src="{{ site.banner.image }}" class="{{ site.banner.class }}" alt="{{ site.banner.alt }}">
+#+END_SRC
+
+** aboutshort
+** categories
+** copyrights
+** postmeta
+** header
+** footer
+** mainlinks
+* pages
+** one-page-content
+** toc
+** resources
+** tags
