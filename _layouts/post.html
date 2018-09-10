@@ -3,13 +3,13 @@ layout: main
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-{% include post-meta.html %}
+  {% include post-meta.html %}
 
-<div class="w3-container" style="max-width: 960px">
-  {{ content }}
-</div>
+  <div class="w3-container" style="max-width: 960px">
+    {{ content }}
+  </div>
 
+  {% include changelog.html %}
+  {% include releated.html %}
 
 </article>
-{% include changelog.html %}
-{% include releated.html %}
