@@ -1,0 +1,19 @@
+<footer class="site-footer h-card">
+
+  <div>
+  {% include contacts.html %}
+  </div>
+  <div>
+  {% include links-bar.html %}
+  </div>
+  <div>
+  {% include copyrights.html %}
+  </div>
+  
+  <div class="footer-col footer-col-3">
+    <p>Site description {{- site.description | escape -}}</p>
+  </div>
+
+  {% include scripts.html %}
+      
+</footer>

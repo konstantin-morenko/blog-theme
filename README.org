@@ -1,0 +1,35 @@
+#+TITLE: План разработки
+#+AUTHOR: Константин Моренко
+#+EMAIL: me@konstantin-morenko.ru
+
+* _config.yml
+
+* _layouts
+** default.html
+** main.html
+** page.html
+** index.html
+** post.html
+* _data
+** links
+*** main
+*** resources
+*** meta
+** contacts
+* _include
+** DONE banner
+
+file:_includes/banner.html
+
+** aboutshort
+** categories
+** copyrights
+** postmeta
+** header
+** footer
+** mainlinks
+* pages
+** one-page-content
+** toc
+** resources
+** tags

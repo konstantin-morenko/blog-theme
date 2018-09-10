@@ -1,0 +1,7 @@
+- hyperlink: /
+  image:
+  description: Home
+
+- hyperlink: /about/
+  image:
+  description: About

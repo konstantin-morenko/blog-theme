@@ -1,0 +1,13 @@
+<div>
+  Links bar
+  {% for link in site.data.links.main %}
+  <div>
+    <a href="{{ link.hyperlink }}">
+      {% if link.image %}
+      <img src="{{ link.image }}">
+      {% endif %}
+      {{ link.description }}
+    </a>
+  </div>
+  {% endfor %}
+</div>
