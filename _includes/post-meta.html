@@ -1,3 +1,7 @@
+{% unless post %}
+  {% assign post = page %}
+{% endunless %}
+
 <p>Post meta</p>
 <ul>
   <li><a href="{{ post.url }}">{{ post.title | escape }}</a></li>
