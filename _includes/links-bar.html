@@ -1,13 +1,12 @@
 <div>
-  Links bar
-  {% for link in site.data.links.main %}
-  <div>
-    <a href="{{ link.hyperlink }}">
+  <div class="w3-container w3-margin w3-bar w3-center">
+    {% for link in site.data.links.main %}
+    <a href="{{ link.hyperlink }}" class="w3-button w3-round">
       {% if link.image %}
       <img src="{{ link.image }}">
       {% endif %}
       {{ link.description }}
     </a>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
