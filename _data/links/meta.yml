@@ -2,10 +2,14 @@
   image:
   description: W3.CSS
 
-- hyperlink:
+- hyperlink: https://jekyllrb.com
   image:
   description: Jekyll
 
 - hyperlink:
   image:
   description: Liquid
+
+- hyperlink: https://creativecommons.org
+  image:
+  description: Creative Commons

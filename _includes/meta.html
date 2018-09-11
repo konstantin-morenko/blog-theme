@@ -1,1 +1,5 @@
-<p>Meta links</p>
+<ul class="w3-ul">
+  {% for link in site.data.links.meta %}
+  <li><a href="{{ link.hyperlink }}">{{ link.description }}</a></li>
+  {% endfor %}
+</ul>
