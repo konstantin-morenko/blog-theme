@@ -1,7 +1,16 @@
-<p>Side navigation</p>
-<ul>
-  <li>{% include short-about.html %}</li>
-  <li>{% include resources.html %}</li>
-  <li>{% include categories.html %}</li>
-  <li>{% include meta.html %}</li>
-</ul>
+<div>
+  <div class="w3-panel w3-bottombar w3-xlarge">Обо мне</div>
+  {% include short-about.html %}
+</div>
+<div>
+  <div class="w3-panel w3-bottombar w3-xlarge">Ресурсы</div>
+  {% include resources.html %}
+</div>
+<div>
+  <div class="w3-panel w3-bottombar w3-xlarge">Категории</div>
+  {% include categories.html %}
+</div>
+<div>
+  <div class="w3-panel w3-bottombar w3-xlarge">Meta</div>
+  {% include meta.html %}
+</div>
