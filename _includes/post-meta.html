@@ -14,3 +14,30 @@
   <li>Last Item In ChangeLog</li>
   <li>Excerpt</li>
 </ul>
+
+<div class="w3-card w3-section">
+  <div class="w3-container w3-center">
+    <h2><a href="{{ post.url }}">{{ post.title | escape }}</a></h2>
+  </div>
+  <div class="w3-container">
+    <div>
+      {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+      {{ post.date | date: date_format }}
+      {% if post.categories %}
+      {% for category in post.categories %}
+      <span class="w3-tag w3-round-large">{{ category }}</span>
+      {% endfor %}
+      {% else %}
+      <span class="w3-tag w3-round-large">No category</span>
+      {% endif %}
+      Tags (with hyperlink)
+      Reading time
+    </div>
+    <div>
+      {{ post.changelog | last }}
+    </div>
+    <div>
+      Excerpt
+    </div>
+  </div>
+</div>
