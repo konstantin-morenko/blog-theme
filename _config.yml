@@ -45,4 +45,8 @@ paginate: 5
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# collections_dir: _collections
+#collections_dir: _collections
+
+collections:
+  manual:
+    output: true

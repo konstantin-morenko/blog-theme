@@ -2,6 +2,10 @@
 #+AUTHOR: Константин Моренко
 #+EMAIL: me@konstantin-morenko.ru
 
+Использовать категории, теги и коллекции
+https://blog.webjeda.com/jekyll-categories/
+https://blog.webjeda.com/jekyll-collections/
+
 * _config.yml
 
 [[banner]]

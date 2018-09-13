@@ -2,6 +2,10 @@
   image:
   description: Home
 
+- hyperlink: /pages/manual.html
+  image:
+  description: Manual
+
 - hyperlink: /about/
   image:
   description: About
