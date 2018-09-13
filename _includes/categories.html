@@ -1,1 +1,5 @@
-<p>Flexible categories menu</p>
+<ul class="w3-ul">
+  {% for cat in site.categories %}
+  <li>{{ cat[0] }} <span class="w3-badge w3-gray">{{ cat[1].size }}</span></li>
+  {% endfor %}
+</ul>
